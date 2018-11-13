@@ -29,10 +29,6 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         console.log(JSON.stringify(result.ops));
     }) */
 
-    var obj = new ObjectID();
-
-    console.log(obj);
-
     client.close();
 
 });
